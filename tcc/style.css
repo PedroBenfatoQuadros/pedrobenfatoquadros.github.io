@@ -1,1 +1,36 @@
-
+body{
+background-color: rgb(15, 18, 56);
+margin: 0;
+}
+.navbar{
+    background-color: rgb(15, 38, 79);
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.navbar div{
+    background-color: aquamarine;
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar div:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.imagem1{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    background-image: url(imgs/png-transparent-apple-logo-apple-watch-logo-apple-logo-heart-logo-computer-wallpaper.png);
+    background-size: cover;
+    background-position: center;
+}
