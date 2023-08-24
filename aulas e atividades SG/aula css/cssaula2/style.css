@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.menu{
+    background-color: darkslategrey;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.menu div{
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu div:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+    }
+    
+.imagem2{
+    background-color: black;
+    height: 200px;
+    background-image: url(g2srosw2xcc71_23032022_ajustada_widelg.jpg);
+    background-size: cover;
+    background-position: center;
+}
