@@ -7,20 +7,28 @@
 }
 body{
     height: 100vh;
+    background-color: #2d486f;
 }
 .navbar-lateral{
     width: 80px;
     height: 100%;
-    background-color: rgb(15, 38, 79);
+    background-color: rgb(9, 21, 43);
     padding: 40px 0 40px 1%;
     box-shadow: 3px 0 0 #029aff;
     position: fixed;
     top: 0;
     left: 0; 
+    overflow: hidden;
+    transition: 0.4s;
+}
+.navbar-lateral:hover{
+    width: 300px;
 }
 .btn-expandir{
     width: 100%;
-    padding-left: 10px;
+    padding-left: 0;
+    color: #fff;
+    font-size: 35px;
 }
 .btn-expandir > i{
     color: #fff;
@@ -51,19 +59,10 @@ ul li.item-menu a .txt-link{
 ul li.item-menu a .icon > i{
 font-size: 27px;
 }
-
-
-
-
-
-
-
-
-.imagem1{
-    height: 50px;
-    width: 50px;
+h1{
     display: flex;
-    background-image: url(imgs/png-transparent-apple-logo-apple-watch-logo-apple-logo-heart-logo-computer-wallpaper.png);
-    background-size: cover;
-    background-position: center;
+    float: none;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
 }
+
