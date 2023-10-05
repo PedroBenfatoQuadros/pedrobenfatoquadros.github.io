@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@
 body{
     height: 100vh;
     background-color: #2d486f;
+    margin-left: 320px;
 }
 .navbar-lateral{
     width: 80px;
@@ -62,7 +64,39 @@ font-size: 27px;
 h1{
     display: flex;
     float: none;
+    padding: 25px 0;
     color: #fff;
     font-family: 'Playfair Display', serif;
+    font-size: 45px;
 }
 
+main{
+    height: 100%;
+}
+
+.infos{
+    display: flex;
+    gap: 150px;
+    height: 60px;
+}
+.infos div{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    background-color: rgb(9, 21, 43);
+    border-radius: 10px;
+    border: 3px solid #029aff;
+    color: aliceblue;
+    width: 200px;
+    height: 85px;
+    padding: 10px;
+
+
+}
+
+.infos div input{
+    font-size: 25px;
+    color: azure;
+    background-color: rgba(255, 255, 255, 0);
+    width: 150px;
+    border: none;
+}
