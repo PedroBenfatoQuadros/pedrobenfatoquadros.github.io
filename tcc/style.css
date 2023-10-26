@@ -12,7 +12,7 @@ body{
     margin-left: 320px;
 }
 .navbar-lateral{
-    width: 80px;
+    width: 60px;
     height: 100%;
     background-color: rgb(9, 21, 43);
     padding: 40px 0 40px 1%;
@@ -43,9 +43,11 @@ ul{
 ul li.item-menu{
     transition: .2s;
 }
+
 ul li.item-menu:hover{
     background: #819097;
 }
+
 ul li.item-menu a{
     color: #fff;
     text-decoration: none;
@@ -55,12 +57,15 @@ ul li.item-menu a{
     margin-bottom: 23px;
     line-height: 40px;
 }
+
 ul li.item-menu a .txt-link{
     margin-left: 35px;
 }
+
 ul li.item-menu a .icon > i{
 font-size: 27px;
 }
+
 h1{
     display: flex;
     float: none;
@@ -76,8 +81,9 @@ main{
 
 .infos{
     display: flex;
-    gap: 150px;
     height: 60px;
+    margin-right: 15px;
+    justify-content: space-between;
 }
 .infos div{
     font-family: 'Inter', sans-serif;
@@ -89,8 +95,6 @@ main{
     width: 200px;
     height: 85px;
     padding: 10px;
-
-
 }
 
 .infos div input{
@@ -101,5 +105,3 @@ main{
     width: 150px;
     border: none;
 }
-
-
