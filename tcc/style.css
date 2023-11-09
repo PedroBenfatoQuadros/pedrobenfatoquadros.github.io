@@ -105,3 +105,20 @@ main{
     width: 150px;
     border: none;
 }
+
+.products{
+    display: flex;
+    height: 60px;
+    margin-right: 15px;
+    justify-content: space-between;
+}
+
+.products div img{
+    background-color: rgb(9, 21, 43);
+    border-radius: 10px;
+    border: 3px solid #029aff;
+    color: aliceblue;
+    width: 200px;
+    height: 85px;
+    padding: 10px;
+}
