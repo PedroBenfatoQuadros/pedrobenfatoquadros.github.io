@@ -47,9 +47,8 @@ body{
     align-items: center;
     margin-left: 122px;
 }
-#login a:hover{
-    border-radius: 3px;
-    border: 3px solid rgb(218, 51, 0);
+#login:hover{
+    border: 2px solid rgb(218, 0, 0);
 }
 #img{
     align-items: center;
