@@ -105,3 +105,41 @@ main{
     width: 150px;
     border: none;
 }
+.perfil{
+    background-color: rgb(44, 44, 44);
+    height:600px;
+    width: 750px;
+    border-radius: 15px;
+    border: 4px solid #f84f0c;
+    color: #fff;
+    margin-top: 25px;
+}
+.perfil h2{
+    margin-top: 10px;
+    margin-left: 295px;
+    font-size: 30px;
+}
+.perfil div{
+    background-color: rgb(44, 44, 44);
+    width: 600px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 100px;
+    border-radius: 3px;
+}
+#login{
+    background-color: #f84f0c;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 310px;
+    margin-left: 210px;
+    margin-top: 150px;
+}
+#login a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    align-items: center;
+    margin-left: 122px;
+}
